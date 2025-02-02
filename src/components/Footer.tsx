@@ -27,7 +27,7 @@ export default function Footer() {
             </Link>
 
             <Link
-              href="#blog"
+              href="/Berita"
               className="text-[#89BD43] hover:text-blue-600 mx-3">
               Blog
             </Link>

@@ -9,44 +9,39 @@ interface ColorResource {
 
 const colorResources: ColorResource[] = [
   {
-    name: "Muzli Colors",
-    url: "https://colors.muz.li",
+    name: "Adi ",
+    url: "089876567",
     iconBg: "#23C08C",
   },
   {
-    name: "Coolors",
-    url: "https://coolors.co",
+    name: "Safrie ",
+    url: "089876567",
     iconBg: "#40C4FF",
   },
   {
-    name: "Colorbox",
-    url: "https://colorbox.io",
+    name: "Janu",
+    url: "089876567",
     iconBg: "#2196F3",
   },
   {
-    name: "Picular",
-    url: "https://picular.co",
+    name: "Teguh",
+    url: "089876567",
     iconBg: "#AB47BC",
   },
   {
-    name: "Color Hunt",
-    url: "https://colorhunt.co",
+    name: "Angga",
+    url: "089876567",
     iconBg: "#FFC107",
   },
   {
-    name: "Site Palette",
-    url: "https://palette.site",
+    name: "Arga",
+    url: "089876567",
     iconBg: "#66BB6A",
   },
   {
-    name: "Adobe Color",
-    url: "https://color.adobe.com",
+    name: "Amin",
+    url: "089876567",
     iconBg: "#8E24AA",
-  },
-  {
-    name: "Mesh Gradient",
-    url: "https://meshgradients.design",
-    iconBg: "#EC407A",
   },
 ];
 
@@ -71,21 +66,10 @@ export default function FreeColors() {
             </div>
             <div>
               <p className="font-medium">{item.name}</p>
-              <a
-                href={item.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm text-blue-600 hover:underline">
-                {item.url.replace("https://", "")}
-              </a>
+              <p className="text-sm text-[#78994d] ">{item.url}</p>
             </div>
           </div>
         ))}
-      </div>
-
-      {/* Bagian “Swipe next” di kanan bawah */}
-      <div className="mt-6 self-end text-sm text-gray-400">
-        Swipe next &rarr;
       </div>
     </section>
   );
