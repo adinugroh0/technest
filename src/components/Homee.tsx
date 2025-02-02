@@ -3,6 +3,7 @@ import React from "react";
 import ColourfulText from "@/components/ui/colourful-text";
 import Image from "next/image";
 import { BackgroundGradient } from "@/components/ui/background-gradient";
+import Link from "next/link";
 
 export function ColourfulTextDemo() {
   return (
@@ -107,6 +108,39 @@ export function ColourfulTextDemo() {
               <span>Buy now</span>
             </button>
           </BackgroundGradient>
+        </div>
+      </div>
+
+      <div className="w-full h-screen flex flex-col items-center justify-center gap-10 ">
+        <h2 className="text-2xl md:text-5xl lg:text-5xl font-bold  text-black relative z-2 font-sans pt-20">
+          Artikel Terbaru
+        </h2>
+        <div className="flex  gap-6">
+          <div className=" flex rounded overflow-hidden shadow-lg bg-white">
+            <Image
+              className="w-full h-48 object-cover"
+              src="/artikel/1.png"
+              alt="Teknologi Terbaru 2025"
+              width={300}
+              height={300}
+            />
+            <div className="px-6 py-4">
+              <h3 className="text-xl font-semibold text-[#89BD43]">
+                Teknologi Terbaru 2025: Apa yang Akan Mengubah Dunia?
+              </h3>
+              <p className="text-gray-700 text-base mt-2">
+                Artikel ini membahas perkembangan teknologi terbaru yang akan
+                mendominasi dunia pada tahun 2025.
+              </p>
+              <div>
+                <Link href="/Artikel">
+                  <p className="text-blue-500 hover:text-blue-700 font-semibold">
+                    Baca Selengkapnya
+                  </p>
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
