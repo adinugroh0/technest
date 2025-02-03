@@ -9,41 +9,42 @@ interface ColorResource {
 
 const colorResources: ColorResource[] = [
   {
-    name: "Adi ",
+    name: "Rizky",
     url: "089876567",
     iconBg: "#23C08C",
   },
   {
-    name: "Safrie ",
+    name: "Dian",
     url: "089876567",
     iconBg: "#40C4FF",
   },
   {
-    name: "Janu",
+    name: "Farhan",
     url: "089876567",
     iconBg: "#2196F3",
   },
   {
-    name: "Teguh",
+    name: "Naufal",
     url: "089876567",
     iconBg: "#AB47BC",
   },
   {
-    name: "Angga",
+    name: "Rama",
     url: "089876567",
     iconBg: "#FFC107",
   },
   {
-    name: "Arga",
+    name: "Fikri",
     url: "089876567",
     iconBg: "#66BB6A",
   },
   {
-    name: "Amin",
+    name: "Reza",
     url: "089876567",
     iconBg: "#8E24AA",
   },
 ];
+
 
 export default function FreeColors() {
   return (
